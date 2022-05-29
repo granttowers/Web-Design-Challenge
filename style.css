@@ -25,14 +25,29 @@ h2 {
   font-family: 'Arial';
   font-weight: bold;
   text-align: left;
-  color: #2dfcfc;
+  color: #000000;
   font-size: 20px;
+}
+
+h3 {
+  /* Formatting */
+  padding-top: 25px;
+  padding-bottom: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  /* Font */
+  font-family: 'Arial';
+  font-weight: bold;
+  text-align: left;
+  color: #000000;
+  font-size: 18px;
 }
 
 p {
   /* Formatting */
   padding-top: 0px;
-  padding-bottom: 25px;
+  padding-bottom: 0px;
   margin-left: 20px;
   margin-left: 20px;
 
@@ -44,11 +59,8 @@ p {
   font-size: 16px;
 }
 
-
-
-
 .table {
- /* Box-model */
+  /* Formatting */
   background: #ffffff;
   padding-top: 1000px;
   padding-bottom: 10px;
@@ -57,7 +69,7 @@ p {
   text-align: center;
   border: 1px solid;
 
-  /* Typography */
+  /* Font */
   font-family: 'Arial';
   font-weight: lighter;
   color: #ff0000;
@@ -65,25 +77,25 @@ p {
  }
 
 .navbar {
-  /* Box-model */
+  /* Formatting */
   padding: 10px;
   background: #2dfcfc;
   padding-top: 10px;
   padding-right: 10px;
   
-  /* Typography */
+  /* Font */
   font-family: 'Arial';
   font-weight: bolder;
   color: #ff0000;
-  }
+}
 
 .navbar-right-custom {
 /* Box-model */
-padding-top: 6px;
-padding-right: 20px;
+  padding-top: 6px;
+  padding-right: 20px;
 
-/* Typography */
-font-family: 'Arial';
-font-weight: lighter;
-color: #000000;
+/* Font */
+  font-family: 'Arial';
+  font-weight: lighter;
+  color: #000000;
 }
