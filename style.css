@@ -13,6 +13,7 @@
   font-size: 16px;
 }
 
+
 #navbarlist {
   /* Formatting */
   padding-top: 0px;
@@ -50,10 +51,10 @@
 
 #mainpagerows {
   /* Formatting */
-  padding-top: 10px;
-  padding-bottom: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 
   /* Font */
   font-family: 'Arial';
