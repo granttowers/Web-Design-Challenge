@@ -46,7 +46,7 @@
 
 
 #mainpage {
-  background: #e6e6e6;
+  background: #d4d4bc;
 }
 
 #mainpagerows {
@@ -113,7 +113,7 @@ h3 {
 
 h6 {
   /* Formatting */
-  padding-top: 10px;
+  padding-top: 50px;
   padding-bottom: 0px;
   margin-left: 20px;
   margin-right: 20px;
@@ -121,11 +121,19 @@ h6 {
   /* Font */
   font-family: 'Arial';
   font-weight: bold;
-  text-align: left;
+  text-align: center;
   color: #033f11;
-  font-size: 16px;
+  font-size: 24px;
 }
 
+.img-thumbnail {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
 p {
   /* Formatting */
@@ -175,7 +183,7 @@ li {
 
 .table {
   /* Formatting */
-  background: #ffffff;
+  background: #d4d4bc;
   padding-top: 1000px;
   padding-bottom: 10px;
   padding-left: 10px;
@@ -193,14 +201,14 @@ li {
 .navbar {
   /* Formatting */
   padding: 10px;
-  background: #2dfcfc;
+  background: #d4d4bc;
   padding-top: 10px;
   padding-right: 10px;
   
   /* Font */
   font-family: 'Arial';
+  color:#000000;
   font-weight: bolder;
-  color: #ff0000;
 }
 
 .navbar-right-custom {
