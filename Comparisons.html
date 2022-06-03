@@ -77,41 +77,54 @@
   </div>
   <!-- Main Body -->
   <!-- Title and Main Header-->
-  <h1>Latitude Analysis - Comparison Page</h1>
+  <h1>Comparison: Latitude vs X</h1>
 
-  <!-- Title and Main Header-->
+  <!-- Adding Coloured  Container-->
   <div class="container-xxl">
+    <p style="color:red;">Click any of the plots below to view an in-depth analysis.</p>
 
-    <!-- Adding Coloured Left Hand Container-->
+    <!-- Adding Left Column and Rows-->
     <div class="row">
-      <div class="col-md-12" id="mainpage">
-        <a href="#">
-          <center><img src="assets\images\Worldwide - Latitude vs Max Temperature.png" align="left"
-              class="img-thumbnail" alt="..." width="600" height="600"></center>
-        </a>
 
-        <a href="#">
-          <center><img src="assets\images\Worldwide - Latitude vs Cloudiness.png" align="right" class="img-thumbnail"
-              alt="..." width="600" height="600"></center>
-        </a>
-
-        <a href="#">
-          <center><img src="assets\images\Worldwide - Latitude vs Humidity.png" align="left" class="img-thumbnail"
-              alt="..." width="600" height="600"></center>
-        </a>
-
-        <a href="#">
-          <center><img src="assets\images\Worldwide - Latitude vs Wind Speed.png" align="right" class="img-thumbnail"
-              alt="..." width="600" height="600"></center>
-        </a>
-
+      <div class="col-md-6" id="comparison.column1">
+        <div class="row">
+          <h3>Vs Max Temperature</h3>
+          <div class="row">
+            <a href="Latitude-vs-Max-Temperature.html">
+              <center><img src="assets\images\Worldwide - Latitude vs Max Temperature.png" class="img-thumbnail"
+                  alt="..." width="500" height="500"></center>
+            </a>
+            <div class="row" id="vs_humidity_head">
+              <h3>Vs Humidity</h3>
+            </div>
+            <a href="Latitude-vs-Humidity.html">
+              <center><img src="assets\images\Worldwide - Latitude vs Humidity.png" class="img-thumbnail" alt="..."
+                  width="500" height="500"></center>
+            </a>
+          </div>
+        </div>
       </div>
+
+      <!-- Adding Right Column and Rows-->
+      <div class="col-md-6" id="comparison.column2">
+        <h3>Vs Cloudiness</h3>
+        <a href="Latitude-vs-Cloudiness.html">
+          <center><img src="assets\images\Worldwide - Latitude vs Cloudiness.png" class="img-thumbnail" alt="..."
+              width="500" height="500"></center>
+        </a>
+        <h3>Vs Humidity</h3>
+        <a href="Latitude-vs-Wind-Speed.html">
+          <center><img src="assets\images\Worldwide - Latitude vs Wind Speed.png" class="img-thumbnail" alt="..."
+              width="500" height="500"></center>
+        </a>
+        <br>
+      </div>
+      <br><br>
     </div>
-
-
-  <p><br></p>
-</div>
-
+  </div>
+  <div class="row">
+    <br>
+  </div>
 </body>
 
 </html>
